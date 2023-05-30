@@ -5,3 +5,63 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+main {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  padding: 2rem;
+}
+
+.container-app {
+  display: flex;
+  height: 100%;
+}
+
+.content-forms {
+  width: 45%;
+}
+
+.content-banner {
+  width: 55%;
+  background-color: #0b0b0b;
+  border-radius: 1rem;
+  padding: 2rem;
+  display: grid;
+  grid-template-rows: 80% 20%;
+}
+.content-banner .box-banner {
+  height: 90%;
+  background-image: url("../img/sign-in.svg");
+  background-repeat: no-repeat;
+  background-size: inherit;
+  transform: scaleX(-1);
+}
+.content-banner h1 {
+  color: #fff;
+  font-size: 3.5rem;
+  text-align: center;
+}
+.content-banner h1::before {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #6c63ff;
+  margin-right: 8px;
+  margin-bottom: 1rem;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
