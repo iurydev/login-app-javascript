@@ -14,16 +14,33 @@ main {
 }
 
 .container-app {
-  display: flex;
+  display: grid;
   height: 100%;
+  grid-template-columns: 45% 55%;
+  grid-gap: 0.5rem;
 }
 
-.content-forms {
-  width: 45%;
+.content-login {
+  padding: 1rem;
+  display: grid;
+  grid-gap: 2rem;
+  height: min-content;
+}
+
+.content-login .content-titulo h1 {
+  margin-bottom: 0.3rem;
+}
+.content-login .content-titulo span {
+  color: #969696;
+}
+
+.content-login .buttons-sign-in-social {
+  display: grid;
+  grid-gap: 0.5rem;
+  grid-template-rows: 1fr;
 }
 
 .content-banner {
-  width: 55%;
   background-color: #0b0b0b;
   border-radius: 1rem;
   padding: 2rem;
