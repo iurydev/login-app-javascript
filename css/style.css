@@ -31,7 +31,7 @@ main {
   margin-bottom: 0.3rem;
 }
 .content-login .content-titulo span {
-  color: #969696;
+  color: #7d7d7d;
 }
 
 .content-login .buttons-sign-in-social {
@@ -60,6 +60,21 @@ main {
 .content-login .buttons-sign-in-social .button-icon {
   margin-left: 5px;
   font-size: 1rem;
+}
+
+.content-login .content-divisor {
+  display: flex;
+  align-items: center;
+}
+.content-login .content-divisor span {
+  font-weight: 600;
+  margin: 0 1rem;
+  color: #7d7d7d;
+}
+.content-login .content-divisor .divisor {
+  height: 1px;
+  width: 100%;
+  background-color: #a6a6a6;
 }
 
 .content-banner {
