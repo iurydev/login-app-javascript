@@ -40,6 +40,28 @@ main {
   grid-template-rows: 1fr;
 }
 
+.content-login .buttons-sign-in-social button {
+  height: 2.5rem;
+  border-radius: 10px;
+  background-color: #645bfb;
+  color: #fff;
+  font-weight: 500;
+  border: none;
+  transition: 0.2s;
+}
+
+.content-login .buttons-sign-in-social button:hover {
+  background-color: #f9f9ff;
+  color: #645bfb;
+  border: 0.1rem solid #645bfb;
+  transition: 0.2s;
+}
+
+.content-login .buttons-sign-in-social .button-icon {
+  margin-left: 5px;
+  font-size: 1rem;
+}
+
 .content-banner {
   background-color: #0b0b0b;
   border-radius: 1rem;
