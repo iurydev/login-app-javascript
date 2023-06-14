@@ -47,14 +47,13 @@ main {
   color: #fff;
   font-weight: 500;
   border: none;
-  transition: 0.2s;
+  transition: 0.3s ease-in-out;
 }
 
 .content-login .buttons-sign-in-social button:hover {
   background-color: #f9f9ff;
   color: #645bfb;
   border: 0.1rem solid #645bfb;
-  transition: 0.2s;
 }
 
 .content-login .buttons-sign-in-social .button-icon {
