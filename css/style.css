@@ -40,17 +40,19 @@ main {
   grid-template-rows: 1fr;
 }
 
-.content-login .buttons-sign-in-social button {
+.botao-padrao-app {
   height: 2.5rem;
   border-radius: 10px;
   background-color: #645bfb;
   color: #fff;
   font-weight: 500;
   border: none;
+  width: 100%;
+  cursor: pointer;
   transition: 0.3s ease-in-out;
 }
 
-.content-login .buttons-sign-in-social button:hover {
+.botao-padrao-app:hover {
   background-color: #f9f9ff;
   color: #645bfb;
   border: 0.1rem solid #645bfb;
@@ -119,6 +121,25 @@ main {
   margin-right: 8px;
   margin-bottom: 1rem;
   animation: blink 1s infinite;
+}
+
+.formularios-login .campo-formulario {
+  margin-bottom: 1rem;
+}
+.formularios-login input,
+.formularios-login label {
+  display: block;
+}
+.formularios-login input {
+  height: 2.5rem;
+  border-radius: 10px;
+  width: 100%;
+  border: 1px solid #b3acac;
+  padding: 0.5rem;
+}
+.formularios-login label {
+  font-weight: 600;
+  margin-bottom: 0.3rem;
 }
 
 @keyframes blink {

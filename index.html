@@ -25,10 +25,10 @@
           </div>
 
           <div class="buttons-sign-in-social">
-            <button>
+            <button class="botao-padrao-app">
               Continuar com Google <i class="fab fa-google button-icon"></i>
             </button>
-            <button>
+            <button class="botao-padrao-app">
               Continuar com Facebook <i class="fab fa-facebook button-icon"></i>
             </button>
           </div>
@@ -39,11 +39,35 @@
             <div class="divisor"></div>
           </div>
 
-          <form class="form-sign-up" action="">Formulário</form>
+          <form class="formularios-login form-sign-up" action="">
+            <div class="campo-formulario">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+
+            <div class="campo-formulario">
+              <label for="senha">Senha:</label>
+              <input type="password" id="senha" name="senha" required />
+            </div>
+
+            <div class="campo-formulario">
+              <label for="confirmar_senha">Confirmar Senha:</label>
+              <input
+                type="password"
+                id="confirmar_senha"
+                name="confirmar_senha"
+                required
+              />
+            </div>
+
+            <button type="submit" class="submit-formulario botao-padrao-app">
+              Registrar
+            </button>
+          </form>
 
           <span class="aviso-sign-in"
             >Já possui uma conta?
-            <a class="link-sign-in" href="">Acessar login</a></span
+            <a class="link-sign-in" href="">Realizar login</a></span
           >
         </div>
 
